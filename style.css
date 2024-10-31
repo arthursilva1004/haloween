@@ -3,7 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("https://img.pikbest.com/wp/202345/1080p-hd-halloween-wallpaper-images_9589328.jpg!sw800");
+    background-image: url("https://images3.alphacoders.com/133/1334603.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
 
