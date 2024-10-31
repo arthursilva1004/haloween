@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.pikbest.com/wp/202345/1080p-hd-halloween-wallpaper-images_9589328.jpg!sw800");
+    overflow: hidden;
+}
+
+h3 {
+    position: fixed;
+    top: 5%;
+    left: 47%;
+    color: white;
+}
+
+#comecar {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 47%;
+    top: 80%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#segundo {
+    position: fixed;
+    top: 2.8%;
+    left: 6%;
+    color: white;
+}
+
+.pcronometro {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    color: white;
+}
+
+.pontuacao {
+    position: fixed;
+    top: 8%;
+    left: 1%;
+    color: white;
+}
+
+.pontos {
+    position: fixed;
+    top: 8%;
+    left: 5%;
+    color: white;
+}
+
+.imagem {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    animation: go-back 5s infinite alternate;
+    transition: all 0.5s;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateY(700px);
+    }
+    to {
+        transform: translateY(-800px);
+    }
+}
